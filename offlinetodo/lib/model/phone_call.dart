@@ -1,0 +1,9 @@
+//@dart=2.9
+class PhoneCallLog {
+  String name;
+  String phoneNumber;
+  String duration;
+  String timeStamp;
+  String callType;
+  PhoneCallLog({this.name, this.phoneNumber,this.duration,this.timeStamp,this.callType});
+}
